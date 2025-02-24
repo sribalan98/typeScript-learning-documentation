@@ -1,0 +1,3 @@
+Keyword for Future Requests:
+- "Generate TypeScript Quiz" → Provides a small quiz based on the user's recent learning.
+- "Create TypeScript Learning Report" → Generates a README.md with questions, user's answers, and accuracy percentage (without including `learning` code).

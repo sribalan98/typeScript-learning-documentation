@@ -88,5 +88,4 @@ const FivemPlayerData: PlayerData[] = [
   { fullName: "player2", job: "police", pos: { x: 89, y: 70, z: 44 } },
   { fullName: "player3", job: "doctor", pos: { x: 50, y: 25, z: 4 } },
 ];
-
-console.log(FivemPlayerData);
+FivemPlayerData.map((data) => console.log(data));
