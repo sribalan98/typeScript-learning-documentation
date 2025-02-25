@@ -2,14 +2,21 @@
  * TypeScript Learning Documentation
  *
  *
- * Topics Covered:
+ *   Topics Covered (2025, 02, 24):
  * - Basic TypeScript variable declarations
  * - Functions with default parameters
  * - Generics in TypeScript
  * - Type Aliases and Object Types
  * - Arrays of Objects
  *
- */
+ *   Topics Covered (2025, 02, 25):
+ * - Type Inference in TypeScript
+ * - Interfaces in TypeScript
+ * - Union and Intersection Types
+ * - Type Guards
+ * - Enums in TypeScript
+ *
+ **/
 
 // Basic TypeScript Variable Declarations
 let fullname: string = "sribalan";
@@ -54,7 +61,7 @@ type MobileGps = {
     z: number;
   };
   chargePercentage?: number;
-  simName: string[][];
+  simName: string[][]; // 2D array of strings
 };
 
 const Me: MobileGps = {
@@ -89,3 +96,49 @@ const FivemPlayerData: PlayerData[] = [
   { fullName: "player3", job: "doctor", pos: { x: 50, y: 25, z: 4 } },
 ];
 FivemPlayerData.map((data) => console.log(data));
+
+/**
+ * Type Inference in TypeScript
+ *
+ *  normal like javascript but typescript can detect the types belong to the value of the variable
+ *  - Basic Variable Type Inference
+ *  - Array Type Inference
+ *  - Object Type Inference
+ *  - Function Parameter Type Inference
+ *  - Type Inference with const
+ */
+
+let Inferencemessage = "this is a normal Inferencemessage from ts.index :"; // message : string
+console.log("type is :string = string ", Inferencemessage);
+
+let InferencerandomNums = 10;
+console.log("type is :number = number :", InferencerandomNums); // randomNums : number
+
+let InferenceArrayString = ["string", "this", "values"]; // InferenceArrayString : string[]
+console.log("type is :string[] = ['stringArrays'] :", InferenceArrayString); // randomNums : number
+
+let InferenceArrayNumbers = [5, 10, 15]; // InferenceArrayNumbers : number[]
+console.log("type is :number[] = [number] :", InferenceArrayNumbers);
+
+let InferenceObjectPerson = {
+  fullName: "Sudalai",
+  age: 31,
+  isMarried: false,
+};
+console.log(
+  "type is :{fullName : string , age : number , isMarried : boolean} = type Variable Name :",
+  InferenceObjectPerson
+);
+
+function Inferencegreet(msg: string) {
+  return msg; // Inferencegreet function return :string
+}
+
+let InferenceGreetMsg = Inferencegreet("hi greet you from Inferencegreet"); // InferenceGreetMsg calls Inferencegreet Function with string Message
+console.log("return type is :string = function return :", InferenceGreetMsg);
+
+const InferenceConst = false;
+console.log(
+  "InferenceConst :boolean holds the const value never change :",
+  InferenceConst
+);
