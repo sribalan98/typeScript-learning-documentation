@@ -1,0 +1,25 @@
+{
+  "name": "typescript-learning-documentation",
+  "version": "1.0.0",
+  "description": "**Question:** What will be the output of the following code?",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sribalan98/typeScript-learning-documentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sribalan98/typeScript-learning-documentation/issues"
+  },
+  "homepage": "https://github.com/sribalan98/typeScript-learning-documentation#readme",
+  "dependencies": {
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {}
+}
