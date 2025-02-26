@@ -31,12 +31,6 @@
 
 ---
 
-## **📝 Quiz Questions & Answers**
+---
 
-### **1️⃣ Type Inference**
-
-**Question:** What type will TypeScript infer for the following variable?
-
-```typescript
-let InferencerandomNums = 10;
-```
+---
