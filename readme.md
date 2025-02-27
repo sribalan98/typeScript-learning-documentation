@@ -2,8 +2,6 @@
 
 ## 👌 **Visit [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/) for Learning TypeScript**
 
-## 📅 **Learning Started Date: 2025-02-24**
-
-## 📅 **Learning Ended Date: 2025-02-27**
+## 📅 **Learning Duration: Started on February 24th, 2025 and completed on February 27th, 2025 (4 days of intensive TypeScript learning)**
 
 ---
