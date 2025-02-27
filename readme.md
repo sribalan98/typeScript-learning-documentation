@@ -1,4 +1,4 @@
-# TypeScript Learning Report
+# TypeScript Learning
 
 ## 👌 **Visit [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/) for Learning TypeScript**
 
